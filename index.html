@@ -1,0 +1,871 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,
+     initial-scale=1.0"
+    />
+    <title>Praktik-6</title>
+
+    <!-- link sambung ke bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+
+    <!-- bootstrap icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css"
+    />
+
+    <!-- google font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body
+    style="
+      font-family: Poppins, sans-serif;
+      background-color: #f1e8d8;
+      color: #3b302a;
+    "
+  >
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg sticky-top px-3"
+      style="background-color: #f1e8d8 !important"
+    >
+      <div class="container">
+        <a
+          class="navbar-brand fw-bold fs-3"
+          href="#home"
+          style="font-family: Playfair Display"
+          >Dasspeed</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tentang">Tentang</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#layanan">Layanan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#karya">Karya</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tim">Tim</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#kontak">Kontak</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero section -->
+    <div id="home" class="container py-5">
+      <div class="row align-items-center g-4">
+        <!-- kiri: teks -->
+        <div class="col-md-6">
+          <span
+            class="badge rounded-pill mb-3"
+            style="background-color: #66705a"
+          >
+            Sejak 2014
+          </span>
+
+          <!-- Judul -->
+          <h1 class="display-4 fw-bold" style="font-family: Playfair Display">
+            Old Soul, New Speed
+          </h1>
+
+          <!-- sub judul -->
+          <p class="lead" style="color: #4f5745">Bengkel mobil klasik</p>
+
+          <!-- Teks -->
+          <p>
+            Dasspeed melayani service mobil sehari hari hingga mobil klasik.
+            Semua Pekerjaan kami kerjakan dengan teliti dan jujur.
+          </p>
+
+          <!-- tombol -->
+          <div class="d-flex flex-wrap gap-2 mt-4">
+            <a
+              href="#kontak"
+              class="btn btn-lg rounded-pill px-4"
+              style="background-color: #3b302a; color: #f1e8d8"
+              >Booking Sekarang
+            </a>
+
+            <a
+              href="#karya"
+              class="btn btn-outline-dark btn-lg rounded-pill px-4"
+              >Lihat Karya
+            </a>
+          </div>
+        </div>
+
+        <!-- kanan: gambar -->
+        <div class="col-md-6">
+          <div class="rounded-4 p-4" style="background-color: #66705a">
+            <img
+              src="asset/van.png"
+              alt="Ilustrasi van klasik Dasspeed"
+              class="img-fluid"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tentang -->
+    <div id="tentang" class="py-5" style="background-color: #f7f1e6">
+      <div class="container">
+        <div class="row align-items-center g-4">
+          <!-- gambar -->
+          <div class="col-sm-5">
+            <img
+              src="asset/garasi.png"
+              class="img-fluid rounded-4"
+              alt="ilustrasi bengkel"
+            />
+          </div>
+
+          <!-- teks -->
+          <div class="col-sm-7">
+            <h2 class="fw-bold mb-3" style="font-family: Playfair Display">
+              Tentang Dasspeed
+            </h2>
+            <p>
+              Dasspeed berdiri pada tahun 2014. Awalnya hanya melayani PT Inti
+              saja yang berlanjut ke sebuah garasi rumah dengan dua mekanik.
+              Sekarang Dasspeed sudah punya workshop kecil sendiri dan melayani
+              ribuan pelanggan.
+            </p>
+            <p>
+              Pemilik Dasspeed sangat menyukai mobil
+              <strong>Volkswagen Kombi Clipper </strong>. Kombi tahun 1978
+              miliknya adalah mobil kesayangan nya, karena itu kami juga
+              spesialis mobil klasik.
+            </p>
+
+            <!-- teks-card -->
+            <div class="row text-center g-3 mt-1">
+              <!-- card 1 -->
+              <div class="col">
+                <div
+                  class="rounded-3 p-3 h-100"
+                  style="background-color: #f1e8d8"
+                >
+                  <h3 class="fw-semibold mb-0" style="color: #4f5745">12</h3>
+                  <small>Tahun berkarya</small>
+                </div>
+              </div>
+
+              <!-- card 2 -->
+              <div class="col">
+                <div
+                  class="rounded-3 p-3 h-100"
+                  style="background-color: #f1e8d8"
+                >
+                  <h3 class="fw-semibold mb-0" style="color: #4f5745">6</h3>
+                  <small>Mekanik ahli</small>
+                </div>
+              </div>
+
+              <!-- card 3 -->
+              <div class="col">
+                <div
+                  class="rounded-3 p-3 h-100"
+                  style="background-color: #f1e8d8"
+                >
+                  <h3 class="fw-semibold mb-0" style="color: #4f5745">
+                    3.200+
+                  </h3>
+                  <small>Mobil ditangani</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Layanan yang diberikan -->
+    <div id="layanan" class="text-white py-5" style="background-color: #3b302a">
+      <div class="container">
+        <!-- judul -->
+        <h2 class="text-center fw-bold" style="font-family: Playfair Display">
+          Layanan Kami
+        </h2>
+        <p class="text-center mb-5" style="color: #cfc3b0">
+          Apa saja yang bisa kami layani di bengkel kami
+        </p>
+
+        <!-- card keterangan layanan -->
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+          <!-- Layanan 1 -->
+          <div class="col">
+            <div
+              class="card border-0 rounded-4 h-100 p-3"
+              style="background-color: #f7f1e6"
+            >
+              <div class="card-body">
+                <div
+                  class="rounded-circle d-flex align-items-center justify-content-center fs-4 mb-3"
+                  style="width: 56px; height: 56px; background-color: #b49a63"
+                >
+                  <i class="bi bi-wrench"></i>
+                </div>
+                <h5 class="card-title fw-semibold">Servis Berkala</h5>
+                <p class="card-text">
+                  Ganti oli, filter, dan cek kondisi mobil secara rutin.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Layanan 2 -->
+          <div class="col">
+            <div
+              class="card border-0 rounded-4 h-100 p-3"
+              style="background-color: #f7f1e6"
+            >
+              <div class="card-body">
+                <div
+                  class="rounded-circle d-flex align-items-center justify-content-center fs-4 mb-3"
+                  style="width: 56px; height: 56px; background-color: #b49a63"
+                >
+                  <i class="bi bi-speedometer2"></i>
+                </div>
+                <h5 class="card-title fw-semibold">Tune-Up Mesin</h5>
+                <p class="card-text">
+                  Mesin disetel ulang supaya tarikan kembali enteng dan irit.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Layanan 3 -->
+          <div class="col">
+            <div
+              class="card border-0 rounded-4 h-100 p-3"
+              style="background-color: #f7f1e6"
+            >
+              <div class="card-body">
+                <div
+                  class="rounded-circle d-flex align-items-center justify-content-center fs-4 mb-3"
+                  style="width: 56px; height: 56px; background-color: #b49a63"
+                >
+                  <i class="bi bi-lightning-charge"></i>
+                </div>
+                <h5 class="card-title fw-semibold">Kelistrikan & AC</h5>
+                <p class="card-text">
+                  Perbaikan aki, lampu, kabel, dan AC mobil.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Layanan 4 -->
+          <div class="col">
+            <div
+              class="card border-0 rounded-4 h-100 p-3"
+              style="background-color: #f7f1e6"
+            >
+              <div class="card-body">
+                <div
+                  class="rounded-circle d-flex align-items-center justify-content-center fs-4 mb-3"
+                  style="width: 56px; height: 56px; background-color: #b49a63"
+                >
+                  <i class="bi bi-car-front"></i>
+                </div>
+                <h5 class="card-title fw-semibold">Restorasi Mobil Klasik</h5>
+                <p class="card-text">
+                  Spesialisasi kami, terutama untuk VW Kombi dan mobil lawas.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Layanan 5 -->
+          <div class="col">
+            <div
+              class="card border-0 rounded-4 h-100 p-3"
+              style="background-color: #f7f1e6"
+            >
+              <div class="card-body">
+                <div
+                  class="rounded-circle d-flex align-items-center justify-content-center fs-4 mb-3"
+                  style="width: 56px; height: 56px; background-color: #b49a63"
+                >
+                  <i class="bi bi-droplet"></i>
+                </div>
+                <h5 class="card-title fw-semibold">Body Repair & Cat</h5>
+                <p class="card-text">
+                  Perbaikan penyok, las, dan cat ulang mobil.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Layanan 6 -->
+          <div class="col">
+            <div
+              class="card border-0 rounded-4 h-100 p-3"
+              style="background-color: #f7f1e6"
+            >
+              <div class="card-body">
+                <div
+                  class="rounded-circle d-flex align-items-center justify-content-center fs-4 mb-3"
+                  style="width: 56px; height: 56px; background-color: #b49a63"
+                >
+                  <i class="bi bi-stars"></i>
+                </div>
+                <h5 class="card-title fw-semibold">Detailing & Interior</h5>
+                <p class="card-text">
+                  Poles body, coating, dan membersihkan kabin.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- karya -->
+    <div id="karya" class="container py-5">
+      <!-- judul karya -->
+      <h2 class="text-center fw-bold" style="font-family: Playfair Display">
+        Hasil kerja kami
+      </h2>
+      <p class="text-center mb-5" style="color: #6a5d52">
+        Beberapa proyek yang sudah kami kerjakan
+      </p>
+
+      <!-- card karya -->
+      <div class="row row-cols-1 row-cols-lg-4 g-4">
+        <!-- card karya 1 -->
+        <div class="col">
+          <div
+            class="card border-0 rounded-4 overflow-hidden h-100"
+            style="background-color: #f7f1e6"
+          >
+            <img
+              src="asset/van.png"
+              class="card-img-top object-fit-contain p-3"
+              alt="ilustrasi van"
+              style="height: 200px; background-color: #66705a"
+            />
+            <div class="card-body">
+              <span
+                class="badge mb-2"
+                style="background-color: #b49a63; color: #252525"
+                >Restorasi</span
+              >
+              <h5 class="card-title fw-semibold">Kombi 1974</h5>
+              <p class="card-text small">
+                Restorasi total body, mesin, dan cat. Selesai dalam 5 bulan.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- card karya 2 -->
+        <div class="col">
+          <div
+            class="card border-0 rounded-4 overflow-hidden h-100"
+            style="background-color: #f7f1e6"
+          >
+            <img
+              src="asset/piston.png"
+              class="card-img-top object-fit-contain p-3"
+              alt="ilustrasi mesin"
+              style="height: 200px; background-color: #a89f92"
+            />
+            <div class="card-body">
+              <span
+                class="badge mb-2"
+                style="background-color: #b49a63; color: #252525"
+                >Mesin</span
+              >
+              <h5 class="card-title fw-semibold">Mercedes W123</h5>
+              <p class="card-text small">
+                Overhaul mesin, ganti piston dan ring baru. Selesai dalam 3
+                minggu.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- card karya 3 -->
+        <div class="col">
+          <div
+            class="card border-0 rounded-4 overflow-hidden h-100"
+            style="background-color: #f7f1e6"
+          >
+            <img
+              src="asset/setir.png"
+              class="card-img-top object-fit-contain p-3"
+              alt="ilustrasi interior"
+              style="height: 200px; background-color: #e3d5b5"
+            />
+            <div class="card-body">
+              <span
+                class="badge mb-2"
+                style="background-color: #b49a63; color: #252525"
+                >Interior</span
+              >
+              <h5 class="card-title fw-semibold">Corolla DX 1982</h5>
+              <p class="card-text small">
+                Setir kayu, jok baru, dan dashboard direstorasi. Selesai dalam 6
+                minggu.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- card karya 4 -->
+        <div class="col">
+          <div
+            class="card border-0 rounded-4 overflow-hidden h-100"
+            style="background-color: #f7f1e6"
+          >
+            <img
+              src="asset/sampel-warna.png"
+              class="card-img-top object-fit-contain p-3"
+              alt="ilustrasi cat dan detailing"
+              style="height: 200px; background-color: #252525"
+            />
+            <div class="card-body">
+              <span
+                class="badge mb-2"
+                style="background-color: #b49a63; color: #252525"
+                >Cat dan Detailing</span
+              >
+              <h5 class="card-title fw-semibold">Civic Wonder 1985</h5>
+              <p class="card-text small">
+                Cat ulang warna olive, lalu dipoles dan coating. Selesai dalam 2
+                minggu.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tim -->
+    <div id="tim" class="py-5" style="background-color: #f7f1e6">
+      <div class="container">
+        <!-- judul tim -->
+        <h2 class="fw-bold text-center" style="font-family: Playfair Display">
+          Tim Kami
+        </h2>
+        <p class="mb-5 text-center" style="color: #6a5d52">
+          Orang-orang di balik setiap mobil yang kami kerjakan
+        </p>
+
+        <!-- card tim -->
+        <div class="row row-cols-2 row-cols-md-3 g-4">
+          <!-- card tim 1 -->
+          <div class="col">
+            <div
+              class="card border-0 rounded-4 h-100 text-center py-3"
+              style="background-color: #f1e8d8"
+            >
+              <img
+                src="asset/profile.jpg"
+                class="rounded-circle object-fit-cover mx-auto"
+                style="
+                  width: 96px;
+                  height: 96px;
+                  object-position: top;
+                  border: 3px solid #b49a63;
+                "
+                alt="profile foto 1 "
+              />
+              <div class="card-body">
+                <span
+                  class="badge mb-2"
+                  style="background-color: #b49a63; color: #252525"
+                  >Pemilik</span
+                >
+                <h5 class="card-title fw-semibold mb-1">Maichel</h5>
+                <p class="card-text small" style="color: #6a5d52">
+                  Founder dan Kepala Mekanik
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- card tim 2 -->
+          <div class="col">
+            <div
+              class="card border-0 rounded-4 h-100 text-center py-3"
+              style="background-color: #f1e8d8"
+            >
+              <img
+                src="asset/profile.jpg"
+                class="rounded-circle object-fit-cover mx-auto"
+                style="
+                  width: 96px;
+                  height: 96px;
+                  object-position: top;
+                  border: 3px solid #b49a63;
+                "
+                alt="profile foto 2 "
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-semibold mb-1">Dirgantara</h5>
+                <p class="card-text small" style="color: #6a5d52">Mekanik</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- card tim 3 -->
+          <div class="col">
+            <div
+              class="card border-0 rounded-4 h-100 text-center py-3"
+              style="background-color: #f1e8d8"
+            >
+              <img
+                src="asset/profile.jpg"
+                class="rounded-circle object-fit-cover mx-auto"
+                style="
+                  width: 96px;
+                  height: 96px;
+                  object-position: top;
+                  border: 3px solid #b49a63;
+                "
+                alt="profile foto 3 "
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-semibold mb-1">Mackiper</h5>
+                <p class="card-text small" style="color: #6a5d52">
+                  Teknisi Kelistrikan
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- card tim 4 -->
+          <div class="col">
+            <div
+              class="card border-0 rounded-4 h-100 text-center py-3"
+              style="background-color: #f1e8d8"
+            >
+              <img
+                src="asset/profile.jpg"
+                class="rounded-circle object-fit-cover mx-auto"
+                style="
+                  width: 96px;
+                  height: 96px;
+                  object-position: top;
+                  border: 3px solid #b49a63;
+                "
+                alt="profile foto 4 "
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-semibold mb-1">Rajendra</h5>
+                <p class="card-text small" style="color: #6a5d52">
+                  Detailing dan Interior
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- card tim 5 -->
+          <div class="col">
+            <div
+              class="card border-0 rounded-4 h-100 text-center py-3"
+              style="background-color: #f1e8d8"
+            >
+              <img
+                src="asset/profile.jpg"
+                class="rounded-circle object-fit-cover mx-auto"
+                style="
+                  width: 96px;
+                  height: 96px;
+                  object-position: top;
+                  border: 3px solid #b49a63;
+                "
+                alt="profile foto 5 "
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-semibold mb-1">Jasper</h5>
+                <p class="card-text small" style="color: #6a5d52">
+                  Spesialis Body dan Cat
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- card tim 6 -->
+          <div class="col">
+            <div
+              class="card border-0 rounded-4 h-100 text-center py-3"
+              style="background-color: #f1e8d8"
+            >
+              <img
+                src="asset/profile.jpg"
+                class="rounded-circle object-fit-cover mx-auto"
+                style="
+                  width: 96px;
+                  height: 96px;
+                  object-position: top;
+                  border: 3px solid #b49a63;
+                "
+                alt="profile foto 6 "
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-semibold mb-1">Chelin</h5>
+                <p class="card-text small" style="color: #6a5d52">
+                  Service Advisor
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- alert fun fact -->
+        <div
+          class="alert border-0 text-white mt-4 mb-0"
+          role="alert"
+          style="background-color: #66705a"
+        >
+          <i class="bi bi-info-circle me-1"></i>
+          <strong>Fun fact:</strong> warna olive dan ivory di Dasspeed diambil
+          dari warna VW Kombi 1978 kesayangan pemilik bengkel.
+        </div>
+      </div>
+    </div>
+
+    <!-- kontak -->
+    <div id="kontak" class="container py-5">
+      <div class="row g-4">
+        <!-- info kontak -->
+        <div class="col-sm-5">
+          <h2 class="fw-bold mb-3" style="font-family: Playfair Display">
+            Booking &amp; Kontak
+          </h2>
+          <p>
+            Isi form untuk booking servis. Tim kami akan menghubungi anda lewat
+            WhatsApp.
+          </p>
+          <ul class="list-unstyled">
+            <li class="mb-2">
+              <i class="bi bi-whatsapp me-2"></i>0822-4034-0060
+            </li>
+            <li class="mb-2"><i class="bi bi-instagram me-2"></i>dasspeed</li>
+            <li class="mb-2">
+              <i class="bi bi-geo-alt me-2"></i>Jl. Raya Buahbatu no.19
+            </li>
+            <li class="mb-2">
+              <i class="bi bi-clock me-2"></i>Senin - Sabtu, 08.00 - 17.00
+            </li>
+          </ul>
+        </div>
+
+        <!-- booking -->
+        <div class="col-sm-7">
+          <form class="bg-white p-4 rounded shadow-sm">
+            <!-- nama -->
+            <div class="mb-3">
+              <label for="input-nama" class="form-label">Nama</label>
+              <input
+                type="text"
+                class="form-control"
+                id="input-nama"
+                placeholder="masukkan nama anda..."
+              />
+            </div>
+
+            <!-- no whatsapp -->
+            <div class="mb-3">
+              <label for="input-hp" class="form-label">No. WhatsApp</label>
+              <input
+                type="text"
+                class="form-control"
+                id="input-hp"
+                placeholder="08xxxxxxxxxx"
+              />
+            </div>
+
+            <!-- email -->
+            <div class="mb-3">
+              <label for="input-email" class="form-label">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="input-email"
+                placeholder="nama@email.com"
+              />
+            </div>
+
+            <!-- pilih layanan -->
+            <div class="mb-3">
+              <label for="input-layanan" class="form-label">Layanan</label>
+              <select class="form-select" id="input-layanan">
+                <option value="">-- pilih layanan --</option>
+                <option value="Servis Berkala">Servis Berkala</option>
+                <option value="Tune-Up Mesin">Tune-Up Mesin</option>
+                <option value="Kelistrikan dan AC">Kelistrikan dan AC</option>
+                <option value="Restorasi Mobil Klasik">
+                  Restorasi Mobil Klasik
+                </option>
+                <option value="Body Repair dan Cat">Body Repair dan Cat</option>
+                <option value="Detailing dan Interior">
+                  Detailing dan Interior
+                </option>
+              </select>
+            </div>
+
+            <!-- pesan -->
+            <div class="mb-3">
+              <label for="input-pesan" class="form-label">Pesan</label>
+              <textarea
+                class="form-control"
+                id="input-pesan"
+                rows="3"
+                placeholder="ceritakan keluhan mobil anda..."
+              ></textarea>
+            </div>
+
+            <!-- kirim -->
+            <button
+              type="button"
+              class="btn w-100"
+              style="background-color: #3b302a; color: #f1e8d8"
+              data-bs-toggle="modal"
+              data-bs-target="#modalKonfirmasi"
+            >
+              Kirim Booking
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer
+      class="text-white text-center py-3"
+      style="background-color: #252525"
+    >
+      <small>
+        &copy; 2026 Dasspeed Garage - Small details make a big difference
+      </small>
+    </footer>
+
+    <!-- modal konfirmasi -->
+    <div
+      class="modal fade"
+      id="modalKonfirmasi"
+      tabindex="-1"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5">Konfirmasi</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Apakah Anda yakin ingin mengirim pesan ini?
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-outline-dark rounded-pill px-4"
+              data-bs-dismiss="modal"
+            >
+              Batal
+            </button>
+            <button
+              type="button"
+              class="btn rounded-pill px-4"
+              style="background-color: #3b302a; color: #f1e8d8"
+              data-bs-dismiss="modal"
+              onclick="kirimBooking()"
+            >
+              Ya, Kirim
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <script src="js/bootstrap.bundle.min.js"></script> -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- sweetalert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- javascript -->
+    <script>
+      // kirim form booking
+      function kirimBooking() {
+        // ambil isi form
+        let nama = document.getElementById("input-nama").value;
+        let hp = document.getElementById("input-hp").value;
+        let layanan = document.getElementById("input-layanan").value;
+
+        // cek: kalau ada yang kosong, muncul popup gagal
+        if (nama == "" || hp == "" || layanan == "") {
+          Swal.fire({
+            icon: "error",
+            title: "Oops...",
+            text: "Nama, nomor WhatsApp, dan layanan harus diisi!",
+            confirmButtonColor: "#3b302a",
+          });
+        } else {
+          // kalau sudah lengkap, muncul popup berhasil
+          Swal.fire({
+            icon: "success",
+            title: "Booking berhasil!",
+            text:
+              "Terima kasih " + nama + ", kami akan segera menghubungi anda.",
+            confirmButtonColor: "#66705a",
+          });
+
+          // kosongkan form lagi
+          document.getElementById("input-nama").value = "";
+          document.getElementById("input-hp").value = "";
+          document.getElementById("input-email").value = "";
+          document.getElementById("input-layanan").value = "";
+          document.getElementById("input-pesan").value = "";
+        }
+      }
+    </script>
+  </body>
+</html>
